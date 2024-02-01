@@ -1,12 +1,13 @@
-import prisma from './client'
+import prisma from '../../../prisma/client'
 
-async function main() {
+export async function dashboard() {
   const allPals = await prisma.$queryRaw`
-  SELECT * FROM "Pal"
+  SELECT id,name,en_name FROM "Pal"
   ORDER BY 
      (substring("id", '^[0-9]+'))::int, 
      substring("id", '[^0-9_].*$')
   `
+  console.log(allPals);
 }
 
-main()
+dashboard()

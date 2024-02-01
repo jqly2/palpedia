@@ -12,10 +12,12 @@ datasource db {
 //Example for palworld data below
 
 model Pal {
-    id          String   @id
+    id          String   @id @default(cuid())
     name        String   @unique
-    en_name     String?
+    en_name     String
     desc        String?
+    type1       String
+    type2       String?
     drop        Drop[]
     stat        Json?
     location    Location[]
@@ -27,13 +29,13 @@ model Drop{
     rate        Int
     amount      String
 
-    pal         Pal       @relation(fields: [palName], references: [name])
-    palName     String    @id
+    pal         Pal       @relation(fields: [palId], references: [id])
+    palId       String    @id
 }
 
 model Location{
-    pal         Pal       @relation(fields: [palName], references: [name])
-    palName     String    @id
+    pal         Pal       @relation(fields: [palId], references: [id])
+    palId       String    @id
 
     day         Json?
     night       Json?      

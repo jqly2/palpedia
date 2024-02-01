@@ -1,5 +1,4 @@
-const { PrismaClient } = require('@prisma/client');
-const prisma = new PrismaClient();
+ import { prismaClient, Prisma } from './client';
 
 //All local json files going to upload. 
 const names = require('../temp-data/json/DT_PalNameText.json');
@@ -15,7 +14,7 @@ const data = {
     stats: stats[0].Rows
 }
 
-type Obj = {[key:string]:any}
+type PalCreateBody = Prisma.Args<typeof prismaClient, 'create'>['data']
 
 function pal_list(){
     const stats_names = Object.keys(data.stats);
@@ -64,7 +63,7 @@ function findNoBoss(query: String, type: string){
 }
 
 function allDrops(query: string){
-    let loot:Obj = {};
+    let loot:{[key:string]: any} = {};
     if(query.includes("DrillGame")){
         query = query.replace("DrillGame", "Drillgame");       
     }
@@ -87,26 +86,10 @@ function allDrops(query: string){
     return loot;
 }
 
-async function main(){
-    for await (const element of fields) {
-        const data = palData(element)
-        const newPal = await prisma.pal.create({
-            data: data
-        })
-
-        // const drop = await prisma.drop.create({
-        //     data: allDrops(element), skipDuplicates: true
-        // })
-
-        console.log(newPal);
-    }
-    // console.log(fields);
-}
-
 function palData(element: string){
     let day = true;
     let night = true;
-    let  pal:Obj = {};
+    let pal:{[key:string]: any} = {};
     if(!data.location[element]){
         // console.log(element);
     }else{
@@ -134,6 +117,10 @@ function palData(element: string){
     pal.name = element;
     pal.en_name = findNoBoss(element, "name");
     pal.desc = findNoBoss(element, "desc");
+    pal.type1 = data.stats[element].ElementType1
+    if(!data.stats[element].ElementType2.includes("None")){
+        pal.type2 = data.stats[element].ElementType2
+    }
     pal.stat = data.stats[element];
     pal.drop = {
         create: allDrops(element)
@@ -142,12 +129,27 @@ function palData(element: string){
     return pal;
 }
 
+const addPal = async (palData: PalCreateBody) => {
+    const newPal = await prismaClient.pal.create({
+        data: palData
+    }) 
+    return newPal;
+}
+
+async function main(){
+    for await (const element of fields) {
+        const packet = palData(element);
+        await addPal(packet);
+        console.log("uploaded" + element);
+    }
+}
+
 main()
     .then(async () => {
-        await prisma.$disconnect();
+        await prismaClient.$disconnect();
     })
     .catch(async (e) => {
         console.log(e);
-        await prisma.$disconnect();
+        await prismaClient.$disconnect();
         process.exit(1);
     })
