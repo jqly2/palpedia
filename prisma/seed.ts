@@ -1,4 +1,4 @@
- import { prismaClient, Prisma } from './client';
+ import { prismaClient, PalCreateBody } from './prismaImport';
 
 //All local json files going to upload. 
 const names = require('../temp-data/json/DT_PalNameText.json');
@@ -13,8 +13,6 @@ const data = {
     desc: desc[0].Rows,
     stats: stats[0].Rows
 }
-
-type PalCreateBody = Prisma.Args<typeof prismaClient, 'create'>['data']
 
 function pal_list(){
     const stats_names = Object.keys(data.stats);
