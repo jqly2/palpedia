@@ -19,15 +19,15 @@ export const
     FOOTERLINK:URL[] = [        
         {
             name:'Offical Site',
-            href:'/'
+            href:'https://www.pocketpair.jp/palworld'
         },
         {
             name:'About',
-            href:'/'
+            href:'/about'
         },
         {
             name:'Credit',
-            href:'/'
+            href:'/credit'
         },
         {
             name:'Roadmap',
@@ -43,4 +43,49 @@ export const
         },
         { name: 'Tech Tree', href: '/tech', icon: Cog8ToothIcon },
         { name: "Items", href:'/items', icon: ShoppingBagIcon}
-    ];
+    ],
+    exclude: string[] = [
+        "OverrideNameTextID",
+        "NamePrefixID",
+        "OverridePartnerSkillTextID",
+        "IsPal",
+        "Tribe",
+        "BPClass",
+        "Organization",
+        "weapon",
+        "WeaponEquip",
+        "Support",
+        "EnemyReceiveDamageRate",
+        "CaptureRateCorrect",
+        "ExpRatio",
+        "Price",
+        "AIResponse",
+        "AISightResponse",
+        "SlowWalkSpeed",
+        "WalkSpeed",
+        "RunSpeed",
+        "RideSprintSpeed",
+        "TransportSpeed",
+        "IsBoss",
+        "IsTowerBoss",
+        "BattleBGM",
+        "IgnoreLeanBack",
+        "IgnoreBlowAway",
+        "MaxFullStomach",
+        "FullStomachDecreaseRate",
+        "ViewingDistance",
+        "ViewingAngle",
+        "HearingRate",
+        "NooseTrap",
+        "Nocturnal",
+        "BiologicalGrade",
+        "Predator",
+        "Edible",
+        "Stamina",
+        "MaleProbability",
+        "CombiRank",
+        "PassiveSkill1",
+        "PassiveSkill2",
+        "PassiveSkill3",
+        "PassiveSkill4"
+    ]

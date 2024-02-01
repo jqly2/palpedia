@@ -1,22 +1,15 @@
+import { PalBasic } from "@/app/lib/definitions";
 import Image from "next/image";
 
-type Props = {
-    id: string,
-    name: string,
-    href: string
-}
-
-const Card = () => {
+const Card = ({id, name}: PalBasic) => {
     return(
         <>
             <div className="max-w-sm rounded overflow-hidden shadow-lg">
-                <Image className="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains" />
                 <div className="px-6 py-4">
-                    <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
-                    <p className="text-gray-700 text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                    </p>
+                    <div className="font-bold text-xl mb-2">{id}</div>
+                    <div className="font-bold text-xl mb-2">{name}</div>
                 </div>
+                <Image className="w-full" src="/img/card-top.jpg" alt="Placeholder" />
             </div>
         </>
     )

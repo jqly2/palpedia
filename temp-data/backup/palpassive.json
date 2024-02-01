@@ -1,0 +1,1222 @@
+[
+  {
+    "Passives": {
+      "Alpaca": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "Alpaca_TextData",
+          "SourceString": "Can be ridden.\r\nSometimes drops <itemName id=|Wool|/> when assigned to\r\n<mapObjectName id=|MonsterFarm|/>.",
+          "LocalizedString": "Can be ridden.\r\nSometimes drops <itemName id=|Wool|/> when assigned to\r\n<mapObjectName id=|MonsterFarm|/>."
+        }
+      },
+      "AmaterasuWolf": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "AmaterasuWolf_TextData",
+          "SourceString": "Can be ridden.\r\nUnaffected by the cold or heat while riding this Pal.",
+          "LocalizedString": "Can be ridden.\r\nUnaffected by the cold or heat while riding this Pal."
+        }
+      },
+      "Anubis": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "Anubis_TextData",
+          "SourceString": "When fighting together, applies\r\n<uiCommon id=|COMMON_ELEMENT_NAME_Earth|/> damage to the player's attacks.\r\nSometimes dodges attacks with a high speed sidestep while in battle.",
+          "LocalizedString": "When fighting together, applies\r\n<uiCommon id=|COMMON_ELEMENT_NAME_Earth|/> damage to the player's attacks.\r\nSometimes dodges attacks with a high speed sidestep while in battle."
+        }
+      },
+      "BadCatgirl": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "BadCatgirl_TextData",
+          "SourceString": "This Pal is under investigation.",
+          "LocalizedString": "This Pal is under investigation."
+        }
+      },
+      "Baphomet": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "Baphomet_TextData",
+          "SourceString": "When activated, attacks targeted enemy with a\r\npowerful <activeSkillName id=|Unique_Baphomet_SwallowKite|/>.",
+          "LocalizedString": "When activated, attacks targeted enemy with a\r\npowerful <activeSkillName id=|Unique_Baphomet_SwallowKite|/>."
+        }
+      },
+      "Baphomet_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "Baphomet_Dark_TextData",
+          "SourceString": "When activated, attacks targeted enemy with a\r\npowerful <activeSkillName id=|Unique_Baphomet_SwallowKite|/>.",
+          "LocalizedString": "When activated, attacks targeted enemy with a\r\npowerful <activeSkillName id=|Unique_Baphomet_SwallowKite|/>."
+        }
+      },
+      "Bastet": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "Bastet_TextData",
+          "SourceString": "Sometimes digs up <itemName id=|Money|/>\r\nwhen assigned to <mapObjectName id=|MonsterFarm|/>.",
+          "LocalizedString": "Sometimes digs up <itemName id=|Money|/>\r\nwhen assigned to <mapObjectName id=|MonsterFarm|/>."
+        }
+      },
+      "Bastet_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "Bastet_Ice_TextData",
+          "SourceString": "Sometimes digs up <itemName id=|Money|/>\r\nwhen assigned to <mapObjectName id=|MonsterFarm|/>.",
+          "LocalizedString": "Sometimes digs up <itemName id=|Money|/>\r\nwhen assigned to <mapObjectName id=|MonsterFarm|/>."
+        }
+      },
+      "BeardedDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "BeardedDragon_TextData",
+          "SourceString": "This Pal is under investigation.",
+          "LocalizedString": "This Pal is under investigation."
+        }
+      },
+      "BerryGoat": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "BerryGoat_TextData",
+          "SourceString": "Sometimes drops <itemName id=|Berries|/> from its back\r\nwhen assigned to <mapObjectName id=|MonsterFarm|/>.",
+          "LocalizedString": "Sometimes drops <itemName id=|Berries|/> from its back\r\nwhen assigned to <mapObjectName id=|MonsterFarm|/>."
+        }
+      },
+      "BirdDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "BirdDragon_TextData",
+          "SourceString": "Can be ridden as an flying mount.\r\nIncreases damage player deals\r\nto enemy weak points while mounted.",
+          "LocalizedString": "Can be ridden as an flying mount.\r\nIncreases damage player deals\r\nto enemy weak points while mounted."
+        }
+      },
+      "BirdDragon_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "BirdDragon_Ice_TextData",
+          "SourceString": "Can be ridden as an flying mount.\r\nIncreases damage player deals\r\nto enemy weak points while mounted.",
+          "LocalizedString": "Can be ridden as an flying mount.\r\nIncreases damage player deals\r\nto enemy weak points while mounted."
+        }
+      },
+      "BlackCentaur": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "BlackCentaur_TextData",
+          "SourceString": "Can be ridden.\r\nCan double jump while mounted.",
+          "LocalizedString": "Can be ridden.\r\nCan double jump while mounted."
+        }
+      },
+      "BlackFurDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "BlackFurDragon_TextData",
+          "SourceString": "This Pal is under investigation.",
+          "LocalizedString": "This Pal is under investigation."
+        }
+      },
+      "BlackGriffon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "BlackGriffon_TextData",
+          "SourceString": "Can be ridden as an flying mount.\r\nEnhances <uiCommon id=|COMMON_ELEMENT_NAME_Dark|/> attacks while mounted.",
+          "LocalizedString": "Can be ridden as an flying mount.\r\nEnhances <uiCommon id=|COMMON_ELEMENT_NAME_Dark|/> attacks while mounted."
+        }
+      },
+      "BlackMetalDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "BlackMetalDragon_TextData",
+          "SourceString": "Can be ridden as an flying mount.\r\nIncreases damage dealt to ore while mounted.",
+          "LocalizedString": "Can be ridden as an flying mount.\r\nIncreases damage dealt to ore while mounted."
+        }
+      },
+      "BlueberryFairy": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "BlueberryFairy_TextData",
+          "SourceString": "This Pal is under investigation.",
+          "LocalizedString": "This Pal is under investigation."
+        }
+      },
+      "BlueDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "BlueDragon_TextData",
+          "SourceString": "Can be ridden to travel on water.\r\nApplies <uiCommon id=|COMMON_ELEMENT_NAME_Water|/> damage\r\nto the player's attacks while mounted.",
+          "LocalizedString": "Can be ridden to travel on water.\r\nApplies <uiCommon id=|COMMON_ELEMENT_NAME_Water|/> damage\r\nto the player's attacks while mounted."
+        }
+      },
+      "BluePlatypus": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "BluePlatypus_TextData",
+          "SourceString": "When activated, <characterName id=|BluePlatypus|/>\r\nbody surfs towards an enemy and slams into them.",
+          "LocalizedString": "When activated, <characterName id=|BluePlatypus|/>\r\nbody surfs towards an enemy and slams into them."
+        }
+      },
+      "Boar": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "Boar_TextData",
+          "SourceString": "Can be ridden.\r\nIncreases efficiency of destroying boulders while mounted.",
+          "LocalizedString": "Can be ridden.\r\nIncreases efficiency of destroying boulders while mounted."
+        }
+      },
+      "BrownRabbit": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "BrownRabbit_TextData",
+          "SourceString": "This Pal is under investigation.",
+          "LocalizedString": "This Pal is under investigation."
+        }
+      },
+      "CaptainPenguin": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "CaptainPenguin_TextData",
+          "SourceString": "While fighting together, <uiCommon id=|COMMON_ELEMENT_NAME_Fire|/> Pals drop more items when defeated.",
+          "LocalizedString": "While fighting together, <uiCommon id=|COMMON_ELEMENT_NAME_Fire|/> Pals drop more items when defeated."
+        }
+      },
+      "Carbunclo": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "Carbunclo_TextData",
+          "SourceString": "When activated, leaps onto the player's head and\r\nuses a submachine gun to follows up player attacks.",
+          "LocalizedString": "When activated, leaps onto the player's head and\r\nuses a submachine gun to follows up player attacks."
+        }
+      },
+      "CatBat": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "CatBat_TextData",
+          "SourceString": "When activated, uses ultrasonic waves to\r\ndetect the location of nearby Pals.",
+          "LocalizedString": "When activated, uses ultrasonic waves to\r\ndetect the location of nearby Pals."
+        }
+      },
+      "CatMage": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "CatMage_TextData",
+          "SourceString": "While fighting together, <uiCommon id=|COMMON_ELEMENT_NAME_Normal|/> Pals drop more items when defeated.",
+          "LocalizedString": "While fighting together, <uiCommon id=|COMMON_ELEMENT_NAME_Normal|/> Pals drop more items when defeated."
+        }
+      },
+      "CatVampire": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "CatVampire_TextData",
+          "SourceString": "While fighting together, grants the player and <characterName id=|CatVampire|/> the life steal effect\r\nwhich absorbs some of the received damage and restores <uiCommon id=|COMMON_STATUS_HP|/>.",
+          "LocalizedString": "While fighting together, grants the player and <characterName id=|CatVampire|/> the life steal effect\r\nwhich absorbs some of the received damage and restores <uiCommon id=|COMMON_STATUS_HP|/>."
+        }
+      },
+      "ChickenPal": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "ChickenPal_TextData",
+          "SourceString": "Sometimes lays an <itemName id=|Egg|/>\r\nwhen assigned to <mapObjectName id=|MonsterFarm|/>.",
+          "LocalizedString": "Sometimes lays an <itemName id=|Egg|/>\r\nwhen assigned to <mapObjectName id=|MonsterFarm|/>."
+        }
+      },
+      "ColorfulBird": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "ColorfulBird_TextData",
+          "SourceString": "When activated, equips to the player\r\nand transforms into an egg launcher.",
+          "LocalizedString": "When activated, equips to the player\r\nand transforms into an egg launcher."
+        }
+      },
+      "CowPal": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "CowPal_TextData",
+          "SourceString": "Sometimes produces <itemName id=|Milk|/>\r\nwhen assigned to <mapObjectName id=|MonsterFarm|/>.",
+          "LocalizedString": "Sometimes produces <itemName id=|Milk|/>\r\nwhen assigned to <mapObjectName id=|MonsterFarm|/>."
+        }
+      },
+      "CuteButterfly": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "CuteButterfly_TextData",
+          "SourceString": "When activated, attacks targeted enemy with\r\n<activeSkillName id=|PoisonFog|/>.",
+          "LocalizedString": "When activated, attacks targeted enemy with\r\n<activeSkillName id=|PoisonFog|/>."
+        }
+      },
+      "CuteFox": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "CuteFox_TextData",
+          "SourceString": "Sometimes digs up items from the ground\r\nwhen assigned to <mapObjectName id=|MonsterFarm|/>.",
+          "LocalizedString": "Sometimes digs up items from the ground\r\nwhen assigned to <mapObjectName id=|MonsterFarm|/>."
+        }
+      },
+      "CuteMole": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "CuteMole_TextData",
+          "SourceString": "When activated, generates subtle vibrations\r\nto detect nearby ore.",
+          "LocalizedString": "When activated, generates subtle vibrations\r\nto detect nearby ore."
+        }
+      },
+      "DarkCrow": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "DarkCrow_TextData",
+          "SourceString": "When activated, attacks targeted enemy with a\r\npowerful <activeSkillName id=|Unique_DarkCrow_TelePoke|/>.",
+          "LocalizedString": "When activated, attacks targeted enemy with a\r\npowerful <activeSkillName id=|Unique_DarkCrow_TelePoke|/>."
+        }
+      },
+      "DarkMutant": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "DarkMutant_TextData",
+          "SourceString": "This Pal is under investigation.",
+          "LocalizedString": "This Pal is under investigation."
+        }
+      },
+      "DarkScorpion": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "DarkScorpion_TextData",
+          "SourceString": "When fighting together, increases the player's defense\r\nand <uiCommon id=|COMMON_ELEMENT_NAME_Electricity|/> Pals drop more items when defeated.",
+          "LocalizedString": "When fighting together, increases the player's defense\r\nand <uiCommon id=|COMMON_ELEMENT_NAME_Electricity|/> Pals drop more items when defeated."
+        }
+      },
+      "Deer": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "Deer_TextData",
+          "SourceString": "Can be ridden.\r\nCan perform a double jump while mounted.\r\nIncreases efficiency of cutting trees.",
+          "LocalizedString": "Can be ridden.\r\nCan perform a double jump while mounted.\r\nIncreases efficiency of cutting trees."
+        }
+      },
+      "Deer_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "Deer_Ground_TextData",
+          "SourceString": "Can be ridden.\r\nCan perform a double jump while mounted.\r\nIncreases efficiency of cutting trees.",
+          "LocalizedString": "Can be ridden.\r\nCan perform a double jump while mounted.\r\nIncreases efficiency of cutting trees."
+        }
+      },
+      "DreamDemon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "DreamDemon_TextData",
+          "SourceString": "While in team, appears near the player.\r\nFollows up player attacks with magic bullets.",
+          "LocalizedString": "While in team, appears near the player.\r\nFollows up player attacks with magic bullets."
+        }
+      },
+      "DrillGame": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "DrillGame_TextData",
+          "SourceString": "When activated, performs <activeSkillName id=|Unique_DrillGame_ShellAttack|/>,\r\nfollows the player while spinning, and mines ores efficiently.",
+          "LocalizedString": "When activated, performs <activeSkillName id=|Unique_DrillGame_ShellAttack|/>,\r\nfollows the player while spinning, and mines ores efficiently."
+        }
+      },
+      "Eagle": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "Eagle_TextData",
+          "SourceString": "While in team, can be summoned and used instead of a glider.\r\nAllows you to fire a gun while gliding with this Pal.",
+          "LocalizedString": "While in team, can be summoned and used instead of a glider.\r\nAllows you to fire a gun while gliding with this Pal."
+        }
+      },
+      "ElecCat": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "ElecCat_TextData",
+          "SourceString": "While in team, increases attack power of <uiCommon id=|COMMON_ELEMENT_NAME_Electricity|/> Pals.",
+          "LocalizedString": "While in team, increases attack power of <uiCommon id=|COMMON_ELEMENT_NAME_Electricity|/> Pals."
+        }
+      },
+      "ElecLion": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "ElecLion_TextData",
+          "SourceString": "This Pal is under investigation.",
+          "LocalizedString": "This Pal is under investigation."
+        }
+      },
+      "ElecPanda": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "ElecPanda_TextData",
+          "SourceString": "Can be ridden.\r\nCan rapidly fire a minigun while mounted.",
+          "LocalizedString": "Can be ridden.\r\nCan rapidly fire a minigun while mounted."
+        }
+      },
+      "FairyDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "FairyDragon_TextData",
+          "SourceString": "Can be ridden as an flying mount.\r\nWhile fighting together, <uiCommon id=|COMMON_ELEMENT_NAME_Dark|/> Pals drop more items when defeated.",
+          "LocalizedString": "Can be ridden as an flying mount.\r\nWhile fighting together, <uiCommon id=|COMMON_ELEMENT_NAME_Dark|/> Pals drop more items when defeated."
+        }
+      },
+      "FairyDragon_Water": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "FairyDragon_Water_TextData",
+          "SourceString": "Can be ridden as an flying mount.\r\nWhile fighting together, <uiCommon id=|COMMON_ELEMENT_NAME_Fire|/> Pals drop more items when defeated.",
+          "LocalizedString": "Can be ridden as an flying mount.\r\nWhile fighting together, <uiCommon id=|COMMON_ELEMENT_NAME_Fire|/> Pals drop more items when defeated."
+        }
+      },
+      "FeatherOstrich": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "FeatherOstrich_TextData",
+          "SourceString": "This Pal is under investigation.",
+          "LocalizedString": "This Pal is under investigation."
+        }
+      },
+      "FengyunDeeper": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "FengyunDeeper_TextData",
+          "SourceString": "Can be ridden.\r\nCan double jump while mounted.",
+          "LocalizedString": "Can be ridden.\r\nCan double jump while mounted."
+        }
+      },
+      "FireKirin": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "FireKirin_TextData",
+          "SourceString": "Can be ridden.\r\nApplies <uiCommon id=|COMMON_ELEMENT_NAME_Fire|/> damage\r\nto the player's attacks while mounted.",
+          "LocalizedString": "Can be ridden.\r\nApplies <uiCommon id=|COMMON_ELEMENT_NAME_Fire|/> damage\r\nto the player's attacks while mounted."
+        }
+      },
+      "FireKirin_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "FireKirin_Dark_TextData",
+          "SourceString": "Can be ridden.\r\nApplies <uiCommon id=|COMMON_ELEMENT_NAME_Dark|/> damage\r\nto the player's attacks while mounted.",
+          "LocalizedString": "Can be ridden.\r\nApplies <uiCommon id=|COMMON_ELEMENT_NAME_Dark|/> damage\r\nto the player's attacks while mounted."
+        }
+      },
+      "FlameBuffalo": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "FlameBuffalo_TextData",
+          "SourceString": "Can be ridden.\r\nKeeps the rider warm in cold environments.",
+          "LocalizedString": "Can be ridden.\r\nKeeps the rider warm in cold environments."
+        }
+      },
+      "FlowerDinosaur": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "FlowerDinosaur_TextData",
+          "SourceString": "Can be ridden.\r\nEnhances <uiCommon id=|COMMON_ELEMENT_NAME_Leaf|/> attacks while mounted.",
+          "LocalizedString": "Can be ridden.\r\nEnhances <uiCommon id=|COMMON_ELEMENT_NAME_Leaf|/> attacks while mounted."
+        }
+      },
+      "FlowerDinosaur_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "FlowerDinosaur_Electric_TextData",
+          "SourceString": "Can be ridden.\r\nEnhances <uiCommon id=|COMMON_ELEMENT_NAME_Electricity|/> attacks while mounted.",
+          "LocalizedString": "Can be ridden.\r\nEnhances <uiCommon id=|COMMON_ELEMENT_NAME_Electricity|/> attacks while mounted."
+        }
+      },
+      "FlowerDoll": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "FlowerDoll_TextData",
+          "SourceString": "When activated,\r\nuses medicinal flowers to restore the player's HP.",
+          "LocalizedString": "When activated,\r\nuses medicinal flowers to restore the player's HP."
+        }
+      },
+      "FlowerRabbit": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "FlowerRabbit_TextData",
+          "SourceString": "While in team, appears near the player.\r\nAutomatically picks up nearby items.",
+          "LocalizedString": "While in team, appears near the player.\r\nAutomatically picks up nearby items."
+        }
+      },
+      "FlyingManta": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "FlyingManta_TextData",
+          "SourceString": "While in team, can be summoned and used instead of a glider.\r\nAllows you to move quickly for long periods of time while gliding with this Pal.",
+          "LocalizedString": "While in team, can be summoned and used instead of a glider.\r\nAllows you to move quickly for long periods of time while gliding with this Pal."
+        }
+      },
+      "FoxMage": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "FoxMage_TextData",
+          "SourceString": "When fighting together, applies\r\n<uiCommon id=|COMMON_ELEMENT_NAME_Fire|/> damage to the player's attacks.",
+          "LocalizedString": "When fighting together, applies\r\n<uiCommon id=|COMMON_ELEMENT_NAME_Fire|/> damage to the player's attacks."
+        }
+      },
+      "Ganesha": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "Ganesha_TextData",
+          "SourceString": "When activated, spouts mysterious water that\r\nsoothes wounds and restores the player's HP.",
+          "LocalizedString": "When activated, spouts mysterious water that\r\nsoothes wounds and restores the player's HP."
+        }
+      },
+      "Garm": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "Garm_TextData",
+          "SourceString": "Can be ridden.\r\nMoves slightly faster than most mounts.",
+          "LocalizedString": "Can be ridden.\r\nMoves slightly faster than most mounts."
+        }
+      },
+      "GhostBeast": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "GhostBeast_TextData",
+          "SourceString": "Can be ridden.\r\nApplies <uiCommon id=|COMMON_ELEMENT_NAME_Dark|/> damage\r\nto the player's attacks while mounted.",
+          "LocalizedString": "Can be ridden.\r\nApplies <uiCommon id=|COMMON_ELEMENT_NAME_Dark|/> damage\r\nto the player's attacks while mounted."
+        }
+      },
+      "GoldenHorse": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "GoldenHorse_TextData",
+          "SourceString": "This Pal is under investigation.",
+          "LocalizedString": "This Pal is under investigation."
+        }
+      },
+      "Gorilla": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "Gorilla_TextData",
+          "SourceString": "When activated, unleashes a primal fury that\r\nincreases <characterName id=|Gorilla|/>'s attack power.",
+          "LocalizedString": "When activated, unleashes a primal fury that\r\nincreases <characterName id=|Gorilla|/>'s attack power."
+        }
+      },
+      "GrassMammoth": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "GrassMammoth_TextData",
+          "SourceString": "Can be ridden.\r\nImproves efficiency of cutting trees and mining ores while mounted.",
+          "LocalizedString": "Can be ridden.\r\nImproves efficiency of cutting trees and mining ores while mounted."
+        }
+      },
+      "GrassMammoth_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "GrassMammoth_Ice_TextData",
+          "SourceString": "Can be ridden.\r\nImproves efficiency of cutting trees and mining ores while mounted.",
+          "LocalizedString": "Can be ridden.\r\nImproves efficiency of cutting trees and mining ores while mounted."
+        }
+      },
+      "GrassPanda": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "GrassPanda_TextData",
+          "SourceString": "Can be ridden.\r\nCan rapidly fire a grenade launcher while mounted.",
+          "LocalizedString": "Can be ridden.\r\nCan rapidly fire a grenade launcher while mounted."
+        }
+      },
+      "GrassPanda_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "GrassPanda_Electric_TextData",
+          "SourceString": "Can be ridden.\r\nCan rapidly fire a grenade launcher while mounted.",
+          "LocalizedString": "Can be ridden.\r\nCan rapidly fire a grenade launcher while mounted."
+        }
+      },
+      "GrassRabbitMan": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "GrassRabbitMan_TextData",
+          "SourceString": "When fighting together, increases player's movement speed and\r\napplies <uiCommon id=|COMMON_ELEMENT_NAME_Leaf|/> damage to the player's attacks.",
+          "LocalizedString": "When fighting together, increases player's movement speed and\r\napplies <uiCommon id=|COMMON_ELEMENT_NAME_Leaf|/> damage to the player's attacks."
+        }
+      },
+      "GuardianDog": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "GuardianDog_TextData",
+          "SourceString": "This Pal is under investigation.",
+          "LocalizedString": "This Pal is under investigation."
+        }
+      },
+      "HadesBird": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "HadesBird_TextData",
+          "SourceString": "Can be ridden as an flying mount.\r\nApplies <uiCommon id=|COMMON_ELEMENT_NAME_Dark|/> damage to the player's attacks while mounted.",
+          "LocalizedString": "Can be ridden as an flying mount.\r\nApplies <uiCommon id=|COMMON_ELEMENT_NAME_Dark|/> damage to the player's attacks while mounted."
+        }
+      },
+      "HawkBird": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "HawkBird_TextData",
+          "SourceString": "Can be ridden as an flying mount.",
+          "LocalizedString": "Can be ridden as an flying mount."
+        }
+      },
+      "Hedgehog": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "Hedgehog_TextData",
+          "SourceString": "When activated, equips <characterName id=|Hedgehog|/> to the player's hand.\r\nWhen thrown at an enemy, causes an electrical explosion upon impact.",
+          "LocalizedString": "When activated, equips <characterName id=|Hedgehog|/> to the player's hand.\r\nWhen thrown at an enemy, causes an electrical explosion upon impact."
+        }
+      },
+      "Hedgehog_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "Hedgehog_Ice_TextData",
+          "SourceString": "When activated, equips <characterName id=|Hedgehog_Ice|/> to the player's hand.\r\nWhen thrown at an enemy, causes an icy explosion upon impact.",
+          "LocalizedString": "When activated, equips <characterName id=|Hedgehog_Ice|/> to the player's hand.\r\nWhen thrown at an enemy, causes an icy explosion upon impact."
+        }
+      },
+      "HerculesBeetle": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "HerculesBeetle_TextData",
+          "SourceString": "When fighting together, increases player's defense and applies\r\n<uiCommon id=|COMMON_ELEMENT_NAME_Fire|/> damage to the player's attacks.",
+          "LocalizedString": "When fighting together, increases player's defense and applies\r\n<uiCommon id=|COMMON_ELEMENT_NAME_Fire|/> damage to the player's attacks."
+        }
+      },
+      "Horus": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "Horus_TextData",
+          "SourceString": "Can be ridden as an flying mount.\r\nWhile fighting together, <uiCommon id=|COMMON_ELEMENT_NAME_Ice|/> Pals drop more items when defeated.",
+          "LocalizedString": "Can be ridden as an flying mount.\r\nWhile fighting together, <uiCommon id=|COMMON_ELEMENT_NAME_Ice|/> Pals drop more items when defeated."
+        }
+      },
+      "IceDeer": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "IceDeer_TextData",
+          "SourceString": "Can be ridden.\r\nKeeps the rider cool in hot environments.",
+          "LocalizedString": "Can be ridden.\r\nKeeps the rider cool in hot environments."
+        }
+      },
+      "IceFox": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "IceFox_TextData",
+          "SourceString": "While in team, increases attack power of <uiCommon id=|COMMON_ELEMENT_NAME_Ice|/> Pals.",
+          "LocalizedString": "While in team, increases attack power of <uiCommon id=|COMMON_ELEMENT_NAME_Ice|/> Pals."
+        }
+      },
+      "IceHorse": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "IceHorse_TextData",
+          "SourceString": "Can be ridden as an flying mount.\r\nChanges the player's attack type to <uiCommon id=|COMMON_ELEMENT_NAME_Ice|/>\r\nand enhances <uiCommon id=|COMMON_ELEMENT_NAME_Ice|/> attacks while mounted.",
+          "LocalizedString": "Can be ridden as an flying mount.\r\nChanges the player's attack type to <uiCommon id=|COMMON_ELEMENT_NAME_Ice|/>\r\nand enhances <uiCommon id=|COMMON_ELEMENT_NAME_Ice|/> attacks while mounted."
+        }
+      },
+      "IceHorse_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "IceHorse_Dark_TextData",
+          "SourceString": "Can be ridden as an flying mount.\r\nChanges the player's attack type to <uiCommon id=|COMMON_ELEMENT_NAME_Dark|/>\r\nand enhances <uiCommon id=|COMMON_ELEMENT_NAME_Dark|/> attacks while mounted.",
+          "LocalizedString": "Can be ridden as an flying mount.\r\nChanges the player's attack type to <uiCommon id=|COMMON_ELEMENT_NAME_Dark|/>\r\nand enhances <uiCommon id=|COMMON_ELEMENT_NAME_Dark|/> attacks while mounted."
+        }
+      },
+      "JetDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "JetDragon_TextData",
+          "SourceString": "Can be ridden as an flying mount.\r\nCan rapidly fire a missile launcher while mounted.",
+          "LocalizedString": "Can be ridden as an flying mount.\r\nCan rapidly fire a missile launcher while mounted."
+        }
+      },
+      "Kelpie": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "Kelpie_TextData",
+          "SourceString": "While in team, increases attack power of <uiCommon id=|COMMON_ELEMENT_NAME_Water|/> Pals.",
+          "LocalizedString": "While in team, increases attack power of <uiCommon id=|COMMON_ELEMENT_NAME_Water|/> Pals."
+        }
+      },
+      "Kelpie_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "Kelpie_Fire_TextData",
+          "SourceString": "While in team, increases attack power of <uiCommon id=|COMMON_ELEMENT_NAME_Fire|/> Pals.",
+          "LocalizedString": "While in team, increases attack power of <uiCommon id=|COMMON_ELEMENT_NAME_Fire|/> Pals."
+        }
+      },
+      "KingAlpaca": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "KingAlpaca_TextData",
+          "SourceString": "Can be ridden.\r\nWhile in team, <characterName id=|KingAlpaca|/> helps carry supplies,\r\nincreasing the player's max carrying capacity.",
+          "LocalizedString": "Can be ridden.\r\nWhile in team, <characterName id=|KingAlpaca|/> helps carry supplies,\r\nincreasing the player's max carrying capacity."
+        }
+      },
+      "KingAlpaca_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "KingAlpaca_Ice_TextData",
+          "SourceString": "Can be ridden.\r\nWhile in team, <characterName id=|KingAlpaca_Ice|/> helps carry supplies,\r\nincreasing the player's max carrying capacity.",
+          "LocalizedString": "Can be ridden.\r\nWhile in team, <characterName id=|KingAlpaca_Ice|/> helps carry supplies,\r\nincreasing the player's max carrying capacity."
+        }
+      },
+      "KingBahamut": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "KingBahamut_TextData",
+          "SourceString": "Can be ridden.\r\nEnhances <uiCommon id=|COMMON_ELEMENT_NAME_Fire|/> attacks while mounted.",
+          "LocalizedString": "Can be ridden.\r\nEnhances <uiCommon id=|COMMON_ELEMENT_NAME_Fire|/> attacks while mounted."
+        }
+      },
+      "Kirin": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "Kirin_TextData",
+          "SourceString": "Can be ridden.\r\nApplies <uiCommon id=|COMMON_ELEMENT_NAME_Electricity|/> damage\r\nto the player's attacks while mounted.",
+          "LocalizedString": "Can be ridden.\r\nApplies <uiCommon id=|COMMON_ELEMENT_NAME_Electricity|/> damage\r\nto the player's attacks while mounted."
+        }
+      },
+      "Kitsunebi": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "Kitsunebi_TextData",
+          "SourceString": "When activated, equips to the player\r\nand transforms into a flamethrower.",
+          "LocalizedString": "When activated, equips to the player\r\nand transforms into a flamethrower."
+        }
+      },
+      "LazyDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "LazyDragon_TextData",
+          "SourceString": "Can be ridden.\r\nCan rapidly fire a missile launcher while mounted.",
+          "LocalizedString": "Can be ridden.\r\nCan rapidly fire a missile launcher while mounted."
+        }
+      },
+      "LazyDragon_Electric": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "LazyDragon_Electric_TextData",
+          "SourceString": "Can be ridden.\r\nCan rapidly fire a missile launcher while mounted.",
+          "LocalizedString": "Can be ridden.\r\nCan rapidly fire a missile launcher while mounted."
+        }
+      },
+      "LilyQueen": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "LilyQueen_TextData",
+          "SourceString": "When activated, the queen's soothing graces\r\ngreatly restore the player's HP.",
+          "LocalizedString": "When activated, the queen's soothing graces\r\ngreatly restore the player's HP."
+        }
+      },
+      "LilyQueen_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "LilyQueen_Dark_TextData",
+          "SourceString": "When activated, the queen's soothing graces\r\ngreatly restore the player's HP.",
+          "LocalizedString": "When activated, the queen's soothing graces\r\ngreatly restore the player's HP."
+        }
+      },
+      "LittleBriarRose": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "LittleBriarRose_TextData",
+          "SourceString": "While in team, increases attack power of <uiCommon id=|COMMON_ELEMENT_NAME_Leaf|/> Pals.",
+          "LocalizedString": "While in team, increases attack power of <uiCommon id=|COMMON_ELEMENT_NAME_Leaf|/> Pals."
+        }
+      },
+      "LizardMan": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "LizardMan_TextData",
+          "SourceString": "When activated, utilizes its sixth sense\r\nto detect nearby dungeons.",
+          "LocalizedString": "When activated, utilizes its sixth sense\r\nto detect nearby dungeons."
+        }
+      },
+      "LizardMan_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "LizardMan_Fire_TextData",
+          "SourceString": "When activated, utilizes its sixth sense\r\nto detect nearby dungeons.",
+          "LocalizedString": "When activated, utilizes its sixth sense\r\nto detect nearby dungeons."
+        }
+      },
+      "Manticore": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "Manticore_TextData",
+          "SourceString": "Can be ridden.\r\nWhile fighting together, <uiCommon id=|COMMON_ELEMENT_NAME_Leaf|/> Pals drop more items when defeated.",
+          "LocalizedString": "Can be ridden.\r\nWhile fighting together, <uiCommon id=|COMMON_ELEMENT_NAME_Leaf|/> Pals drop more items when defeated."
+        }
+      },
+      "Manticore_Dark": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "Manticore_Dark_TextData",
+          "SourceString": "Can be ridden.\r\nWhile fighting together, <uiCommon id=|COMMON_ELEMENT_NAME_Normal|/> Pals drop more items when defeated.",
+          "LocalizedString": "Can be ridden.\r\nWhile fighting together, <uiCommon id=|COMMON_ELEMENT_NAME_Normal|/> Pals drop more items when defeated."
+        }
+      },
+      "Monkey": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "Monkey_TextData",
+          "SourceString": "When activated, <characterName id=|Monkey|/> will mercilessly\r\nfire an assault rifle at nearby enemies.",
+          "LocalizedString": "When activated, <characterName id=|Monkey|/> will mercilessly\r\nfire an assault rifle at nearby enemies."
+        }
+      },
+      "MopBaby": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "MopBaby_TextData",
+          "SourceString": "While in team, <characterName id=|MopKing|/>'s stats will be increased.",
+          "LocalizedString": "While in team, <characterName id=|MopKing|/>'s stats will be increased."
+        }
+      },
+      "MopKing": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "MopKing_TextData",
+          "SourceString": "Can be ridden.\r\nWhile fighting together, stats will increase the more <characterName id=|MopBaby|/> are in your team.",
+          "LocalizedString": "Can be ridden.\r\nWhile fighting together, stats will increase the more <characterName id=|MopBaby|/> are in your team."
+        }
+      },
+      "Mutant": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "Mutant_TextData",
+          "SourceString": "While in team, <characterName id=|Mutant|/> manipulates gravity,\r\nincreasing the player's max carrying capacity.",
+          "LocalizedString": "While in team, <characterName id=|Mutant|/> manipulates gravity,\r\nincreasing the player's max carrying capacity."
+        }
+      },
+      "NaughtyCat": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "NaughtyCat_TextData",
+          "SourceString": "Can be ridden.\r\nEnhances <uiCommon id=|COMMON_ELEMENT_NAME_Normal|/> attacks while mounted.",
+          "LocalizedString": "Can be ridden.\r\nEnhances <uiCommon id=|COMMON_ELEMENT_NAME_Normal|/> attacks while mounted."
+        }
+      },
+      "NegativeKoala": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "NegativeKoala_TextData",
+          "SourceString": "When activated, <characterName id=|NegativeKoala|/>\r\ndrinks a massive amount of energy drinks,\r\ncausing its movement speed to increase.",
+          "LocalizedString": "When activated, <characterName id=|NegativeKoala|/>\r\ndrinks a massive amount of energy drinks,\r\ncausing its movement speed to increase."
+        }
+      },
+      "NegativeOctopus": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "NegativeOctopus_TextData",
+          "SourceString": "While in team, can be summoned and used instead of a glider.\r\nCan float for long periods of time while gliding.",
+          "LocalizedString": "While in team, can be summoned and used instead of a glider.\r\nCan float for long periods of time while gliding."
+        }
+      },
+      "NightFox": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "NightFox_TextData",
+          "SourceString": "When fighting together, applies\r\n<uiCommon id=|COMMON_ELEMENT_NAME_Dark|/> damage to the player's attacks.",
+          "LocalizedString": "When fighting together, applies\r\n<uiCommon id=|COMMON_ELEMENT_NAME_Dark|/> damage to the player's attacks."
+        }
+      },
+      "Penguin": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "Penguin_TextData",
+          "SourceString": "When activated, the player equips a <itemName id=|Launcher_Default|/>\r\nand fires <characterName id=|Penguin|/> as ammunition.\r\n<characterName id=|Penguin|/> explodes on contact and is incapacitated.",
+          "LocalizedString": "When activated, the player equips a <itemName id=|Launcher_Default|/>\r\nand fires <characterName id=|Penguin|/> as ammunition.\r\n<characterName id=|Penguin|/> explodes on contact and is incapacitated."
+        }
+      },
+      "PinkCat": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PinkCat_TextData",
+          "SourceString": "While in team, <characterName id=|PinkCat|/> helps carry supplies,\r\nincreasing the player's max carrying capacity.",
+          "LocalizedString": "While in team, <characterName id=|PinkCat|/> helps carry supplies,\r\nincreasing the player's max carrying capacity."
+        }
+      },
+      "PinkLizard": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PinkLizard_TextData",
+          "SourceString": "While fighting together, grants the player and <characterName id=|PinkLizard|/> the life steal effect\r\nwhich absorbs some of the received damage and restores <uiCommon id=|COMMON_STATUS_HP|/>.",
+          "LocalizedString": "While fighting together, grants the player and <characterName id=|PinkLizard|/> the life steal effect\r\nwhich absorbs some of the received damage and restores <uiCommon id=|COMMON_STATUS_HP|/>."
+        }
+      },
+      "PinkRabbit": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PinkRabbit_TextData",
+          "SourceString": "While in team, increases attack power of <uiCommon id=|COMMON_ELEMENT_NAME_Normal|/> Pals.\r\nWhile at a base, increases work efficiency if working at <mapObjectName id=|WeaponFactory_Dirty_01|/>.",
+          "LocalizedString": "While in team, increases attack power of <uiCommon id=|COMMON_ELEMENT_NAME_Normal|/> Pals.\r\nWhile at a base, increases work efficiency if working at <mapObjectName id=|WeaponFactory_Dirty_01|/>."
+        }
+      },
+      "PlantSlime": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "PlantSlime_TextData",
+          "SourceString": "While in team, improves efficiency of cutting trees.",
+          "LocalizedString": "While in team, improves efficiency of cutting trees."
+        }
+      },
+      "QueenBee": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "QueenBee_TextData",
+          "SourceString": "While fighting together, stats will increase the more\r\n<characterName id=|SoldierBee|/> are in your team.",
+          "LocalizedString": "While fighting together, stats will increase the more\r\n<characterName id=|SoldierBee|/> are in your team."
+        }
+      },
+      "RaijinDaughter": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "RaijinDaughter_TextData",
+          "SourceString": "While in team, appears near the player.\r\nFollows up player attacks with lightning bolts.",
+          "LocalizedString": "While in team, appears near the player.\r\nFollows up player attacks with lightning bolts."
+        }
+      },
+      "RedArmorBird": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "RedArmorBird_TextData",
+          "SourceString": "Can be ridden as an flying mount.\r\nApplies <uiCommon id=|COMMON_ELEMENT_NAME_Fire|/> damage to the player's attacks while mounted.",
+          "LocalizedString": "Can be ridden as an flying mount.\r\nApplies <uiCommon id=|COMMON_ELEMENT_NAME_Fire|/> damage to the player's attacks while mounted."
+        }
+      },
+      "RobinHood": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "RobinHood_TextData",
+          "SourceString": "While fighting together,\r\nallows you to deal more damage to weak points.",
+          "LocalizedString": "While fighting together,\r\nallows you to deal more damage to weak points."
+        }
+      },
+      "RobinHood_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "RobinHood_Ground_TextData",
+          "SourceString": "While fighting together,\r\nallows you to deal more damage to weak points.",
+          "LocalizedString": "While fighting together,\r\nallows you to deal more damage to weak points."
+        }
+      },
+      "Ronin": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "Ronin_TextData",
+          "SourceString": "When activated, attacks targeted enemy with a\r\npowerful <activeSkillName id=|Unique_Ronin_Iai|/>.",
+          "LocalizedString": "When activated, attacks targeted enemy with a\r\npowerful <activeSkillName id=|Unique_Ronin_Iai|/>."
+        }
+      },
+      "SaintCentaur": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "SaintCentaur_TextData",
+          "SourceString": "Can be ridden.\r\nCan triple jump while mounted.",
+          "LocalizedString": "Can be ridden.\r\nCan triple jump while mounted."
+        }
+      },
+      "SakuraSaurus": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "SakuraSaurus_TextData",
+          "SourceString": "Can be ridden.\r\nWhile in team, <characterName id=|SakuraSaurus|/> helps carry supplies,\r\nincreasing the player's max carrying capacity.",
+          "LocalizedString": "Can be ridden.\r\nWhile in team, <characterName id=|SakuraSaurus|/> helps carry supplies,\r\nincreasing the player's max carrying capacity."
+        }
+      },
+      "SakuraSaurus_Water": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "SakuraSaurus_Water_TextData",
+          "SourceString": "Can be ridden.\r\nWhile in team, <characterName id=|SakuraSaurus_Water|/> helps carry supplies,\r\nincreasing the player's max carrying capacity.",
+          "LocalizedString": "Can be ridden.\r\nWhile in team, <characterName id=|SakuraSaurus_Water|/> helps carry supplies,\r\nincreasing the player's max carrying capacity."
+        }
+      },
+      "ScorpionMan": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "ScorpionMan_TextData",
+          "SourceString": "This Pal is under investigation.",
+          "LocalizedString": "This Pal is under investigation."
+        }
+      },
+      "Serpent": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "Serpent_TextData",
+          "SourceString": "Can be ridden to travel on water.\r\nWhile mounted, prevents stamina depletion\r\nwhile moving over water.",
+          "LocalizedString": "Can be ridden to travel on water.\r\nWhile mounted, prevents stamina depletion\r\nwhile moving over water."
+        }
+      },
+      "Serpent_Ground": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "Serpent_Ground_TextData",
+          "SourceString": "Can be ridden.",
+          "LocalizedString": "Can be ridden."
+        }
+      },
+      "SkyDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "SkyDragon_TextData",
+          "SourceString": "Can be ridden as an flying mount.\r\nEnhances <uiCommon id=|COMMON_ELEMENT_NAME_Dragon|/> attacks while mounted.",
+          "LocalizedString": "Can be ridden as an flying mount.\r\nEnhances <uiCommon id=|COMMON_ELEMENT_NAME_Dragon|/> attacks while mounted."
+        }
+      },
+      "SharkKid": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "SharkKid_TextData",
+          "SourceString": "When activated, attacks targeted enemy with a\r\npowerful <activeSkillName id=|WaterGun|/>.\r\nWhile in team, increases player's attack power.",
+          "LocalizedString": "When activated, attacks targeted enemy with a\r\npowerful <activeSkillName id=|WaterGun|/>.\r\nWhile in team, increases player's attack power."
+        }
+      },
+      "SharkKid_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "SharkKid_Fire_TextData",
+          "SourceString": "When activated, attacks targeted enemy with a\r\npowerful <activeSkillName id=|FireSeed|/>.\r\nWhile in team, increases player's attack power.",
+          "LocalizedString": "When activated, attacks targeted enemy with a\r\npowerful <activeSkillName id=|FireSeed|/>.\r\nWhile in team, increases player's attack power."
+        }
+      },
+      "SifuDog": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "SifuDog_TextData",
+          "SourceString": "This Pal is under investigation.",
+          "LocalizedString": "This Pal is under investigation."
+        }
+      },
+      "SheepBall": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "SheepBall_TextData",
+          "SourceString": "When activated, equips to the player and becomes a shield.\r\nSometimes drops <itemName id=|Wool|/> when assigned to\r\n<mapObjectName id=|MonsterFarm|/>.",
+          "LocalizedString": "When activated, equips to the player and becomes a shield.\r\nSometimes drops <itemName id=|Wool|/> when assigned to\r\n<mapObjectName id=|MonsterFarm|/>."
+        }
+      },
+      "SoldierBee": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "SoldierBee_TextData",
+          "SourceString": "Sometimes drops <itemName id=|Honey|/> when\r\nassigned to <mapObjectName id=|MonsterFarm|/>.\r\nWhile in team, <characterName id=|QueenBee|/>'s stats will be increased.",
+          "LocalizedString": "Sometimes drops <itemName id=|Honey|/> when\r\nassigned to <mapObjectName id=|MonsterFarm|/>.\r\nWhile in team, <characterName id=|QueenBee|/>'s stats will be increased."
+        }
+      },
+      "Suzaku": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "Suzaku_TextData",
+          "SourceString": "Can be ridden as an flying mount.\r\nEnhances <uiCommon id=|COMMON_ELEMENT_NAME_Fire|/> attacks while mounted.",
+          "LocalizedString": "Can be ridden as an flying mount.\r\nEnhances <uiCommon id=|COMMON_ELEMENT_NAME_Fire|/> attacks while mounted."
+        }
+      },
+      "Suzaku_Water": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "Suzaku_Water_TextData",
+          "SourceString": "Can be ridden as an flying mount.\r\nEnhances <uiCommon id=|COMMON_ELEMENT_NAME_Water|/> attacks while mounted.",
+          "LocalizedString": "Can be ridden as an flying mount.\r\nEnhances <uiCommon id=|COMMON_ELEMENT_NAME_Water|/> attacks while mounted."
+        }
+      },
+      "SweetsSheep": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "SweetsSheep_TextData",
+          "SourceString": "Sometimes drops <itemName id=|Sweet|/>\r\nwhen assigned to <mapObjectName id=|MonsterFarm|/>.",
+          "LocalizedString": "Sometimes drops <itemName id=|Sweet|/>\r\nwhen assigned to <mapObjectName id=|MonsterFarm|/>."
+        }
+      },
+      "TentacleTurtle": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "TentacleTurtle_TextData",
+          "SourceString": "This Pal is under investigation.",
+          "LocalizedString": "This Pal is under investigation."
+        }
+      },
+      "ThunderBird": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "ThunderBird_TextData",
+          "SourceString": "Can be ridden as an flying mount.\r\nApplies <uiCommon id=|COMMON_ELEMENT_NAME_Electricity|/> damage to the player's attacks while mounted.",
+          "LocalizedString": "Can be ridden as an flying mount.\r\nApplies <uiCommon id=|COMMON_ELEMENT_NAME_Electricity|/> damage to the player's attacks while mounted."
+        }
+      },
+      "ThunderDog": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "ThunderDog_TextData",
+          "SourceString": "Can be ridden.\r\nCan double jump while mounted.",
+          "LocalizedString": "Can be ridden.\r\nCan double jump while mounted."
+        }
+      },
+      "ThunderDragonMan": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "ThunderDragonMan_TextData",
+          "SourceString": "While fighting together, <uiCommon id=|COMMON_ELEMENT_NAME_Water|/> Pals drop more items when defeated.",
+          "LocalizedString": "While fighting together, <uiCommon id=|COMMON_ELEMENT_NAME_Water|/> Pals drop more items when defeated."
+        }
+      },
+      "Umihebi": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "Umihebi_TextData",
+          "SourceString": "Can be ridden to travel on water.\r\nWhile mounted, prevents stamina depletion while moving over water.",
+          "LocalizedString": "Can be ridden to travel on water.\r\nWhile mounted, prevents stamina depletion while moving over water."
+        }
+      },
+      "Umihebi_Fire": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "Umihebi_Fire_TextData",
+          "SourceString": "Can be ridden.\r\nEnhances <uiCommon id=|COMMON_ELEMENT_NAME_Fire|/> attacks while mounted.",
+          "LocalizedString": "Can be ridden.\r\nEnhances <uiCommon id=|COMMON_ELEMENT_NAME_Fire|/> attacks while mounted."
+        }
+      },
+      "VioletFairy": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "VioletFairy_TextData",
+          "SourceString": "While fighting together, <uiCommon id=|COMMON_ELEMENT_NAME_Earth|/> Pals drop more items when defeated.",
+          "LocalizedString": "While fighting together, <uiCommon id=|COMMON_ELEMENT_NAME_Earth|/> Pals drop more items when defeated."
+        }
+      },
+      "VolcanicMonster": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "VolcanicMonster_TextData",
+          "SourceString": "Can be ridden.\r\nImproves efficiency of mining ores while mounted.",
+          "LocalizedString": "Can be ridden.\r\nImproves efficiency of mining ores while mounted."
+        }
+      },
+      "VolcanicMonster_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "VolcanicMonster_Ice_TextData",
+          "SourceString": "Can be ridden.\r\nImproves efficiency of mining ores while mounted.",
+          "LocalizedString": "Can be ridden.\r\nImproves efficiency of mining ores while mounted."
+        }
+      },
+      "WeaselDragon": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "WeaselDragon_TextData",
+          "SourceString": "Can be ridden.\r\nApplies <uiCommon id=|COMMON_ELEMENT_NAME_Dragon|/> damage to the player's attacks while mounted.",
+          "LocalizedString": "Can be ridden.\r\nApplies <uiCommon id=|COMMON_ELEMENT_NAME_Dragon|/> damage to the player's attacks while mounted."
+        }
+      },
+      "Werewolf": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "Werewolf_TextData",
+          "SourceString": "When activated, attacks targeted enemy with a\r\npowerful <activeSkillName id=|Unique_Werewolf_Scratch|/>.",
+          "LocalizedString": "When activated, attacks targeted enemy with a\r\npowerful <activeSkillName id=|Unique_Werewolf_Scratch|/>."
+        }
+      },
+      "WhiteMoth": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "WhiteMoth_TextData",
+          "SourceString": "When activated, attacks targeted enemy with a\r\npowerful <activeSkillName id=|IcicleThrow|/>.\r\nSometimes produces <itemName id=|Cloth2|/>\r\nwhen assigned to <mapObjectName id=|MonsterFarm|/>.",
+          "LocalizedString": "When activated, attacks targeted enemy with a\r\npowerful <activeSkillName id=|IcicleThrow|/>.\r\nSometimes produces <itemName id=|Cloth2|/>\r\nwhen assigned to <mapObjectName id=|MonsterFarm|/>."
+        }
+      },
+      "WhiteTiger": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "WhiteTiger_TextData",
+          "SourceString": "While fighting together, <uiCommon id=|COMMON_ELEMENT_NAME_Dragon|/> Pals drop more items when defeated.",
+          "LocalizedString": "While fighting together, <uiCommon id=|COMMON_ELEMENT_NAME_Dragon|/> Pals drop more items when defeated."
+        }
+      },
+      "Windchimes": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "Windchimes_TextData",
+          "SourceString": "While in team, can be summoned and used instead of a glider.\r\nCarries the player up high while gliding.",
+          "LocalizedString": "While in team, can be summoned and used instead of a glider.\r\nCarries the player up high while gliding."
+        }
+      },
+      "Windchimes_Ice": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "Windchimes_Ice_TextData",
+          "SourceString": "While in team, can be summoned and used instead of a glider.\r\nCarries the player up high while gliding.",
+          "LocalizedString": "While in team, can be summoned and used instead of a glider.\r\nCarries the player up high while gliding."
+        }
+      },
+      "WingGolem": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "WingGolem_TextData",
+          "SourceString": "This Pal is under investigation.",
+          "LocalizedString": "This Pal is under investigation."
+        }
+      },
+      "WizardOwl": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "WizardOwl_TextData",
+          "SourceString": "While in team, increases attack power of <uiCommon id=|COMMON_ELEMENT_NAME_Dark|/> Pals.",
+          "LocalizedString": "While in team, increases attack power of <uiCommon id=|COMMON_ELEMENT_NAME_Dark|/> Pals."
+        }
+      },
+      "Yeti": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "Yeti_TextData",
+          "SourceString": "Can be ridden.\r\nWhile in team, <characterName id=|Yeti|/> helps carry supplies,\r\nincreasing the player's max carrying capacity.",
+          "LocalizedString": "Can be ridden.\r\nWhile in team, <characterName id=|Yeti|/> helps carry supplies,\r\nincreasing the player's max carrying capacity."
+        }
+      },
+      "Yeti_Grass": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "Yeti_Grass_TextData",
+          "SourceString": "Can be ridden.\r\nWhile in team, <characterName id=|Yeti_Grass|/> helps carry supplies,\r\nincreasing the player's max carrying capacity.",
+          "LocalizedString": "Can be ridden.\r\nWhile in team, <characterName id=|Yeti_Grass|/> helps carry supplies,\r\nincreasing the player's max carrying capacity."
+        }
+      },
+      "WoolFox": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "WoolFox_TextData",
+          "SourceString": "While in team, increases attack power of <uiCommon id=|COMMON_ELEMENT_NAME_Normal|/> Pals.\r\nSometimes drops <itemName id=|Wool|/> when assigned to <mapObjectName id=|MonsterFarm|/>.",
+          "LocalizedString": "While in team, increases attack power of <uiCommon id=|COMMON_ELEMENT_NAME_Normal|/> Pals.\r\nSometimes drops <itemName id=|Wool|/> when assigned to <mapObjectName id=|MonsterFarm|/>."
+        }
+      },
+      "LazyCatfish": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "LazyCatfish_TextData",
+          "SourceString": "While in team, increases attack power of <uiCommon id=|COMMON_ELEMENT_NAME_Earth|/> Pals.",
+          "LocalizedString": "While in team, increases attack power of <uiCommon id=|COMMON_ELEMENT_NAME_Earth|/> Pals."
+        }
+      },
+      "LavaGirl": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "LavaGirl_TextData",
+          "SourceString": "Sometimes produces <itemName id=|FireOrgan|/>\r\nwhen assigned to <mapObjectName id=|MonsterFarm|/>.",
+          "LocalizedString": "Sometimes produces <itemName id=|FireOrgan|/>\r\nwhen assigned to <mapObjectName id=|MonsterFarm|/>."
+        }
+      },
+      "FlameBambi": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "FlameBambi_TextData",
+          "SourceString": "While in team, increases attack power of <uiCommon id=|COMMON_ELEMENT_NAME_Fire|/> Pals.",
+          "LocalizedString": "While in team, increases attack power of <uiCommon id=|COMMON_ELEMENT_NAME_Fire|/> Pals."
+        }
+      },
+      "Human": {
+        "TextData": {
+          "Namespace": "DT_PalFirstActivatedInfoText",
+          "Key": "Human_TextData",
+          "SourceString": "Humans are not Pals; therefore, they do not possess Partner Skills.",
+          "LocalizedString": "Humans are not Pals; therefore, they do not possess Partner Skills."
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,46 @@
+generator client {
+    provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url = env("POSTGRES_PRISMA_URL") // uses connection pooling
+  directUrl = env("POSTGRES_URL_NON_POOLING") // uses a direct connection
+}
+
+//Model fields for each json file you want to take in and sort by. 
+//Example for palworld data below
+
+model Pal {
+    id          String   @id
+    name        String   @unique
+    en_name     String?
+    desc        String?
+    drop        Drop[]
+    stat        Json?
+    location    Location[]
+
+}
+
+model Drop{
+    item        String
+    rate        Int
+    amount      String
+
+    pal         Pal       @relation(fields: [palName], references: [name])
+    palName     String    @id
+}
+
+model Location{
+    pal         Pal       @relation(fields: [palName], references: [name])
+    palName     String    @id
+
+    day         Json?
+    night       Json?      
+}
+
+
+
+
+
+
