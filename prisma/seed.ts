@@ -117,9 +117,9 @@ function palData(element: string){
     pal.name = element;
     pal.en_name = findNoBoss(element, "name");
     pal.desc = findNoBoss(element, "desc");
-    pal.type1 = data.stats[element].ElementType1
+    pal.type1 = data.stats[element].ElementType1.replace("EPalElementType::","")
     if(!data.stats[element].ElementType2.includes("None")){
-        pal.type2 = data.stats[element].ElementType2
+        pal.type2 = data.stats[element].ElementType2.replace("EPalElementType::","")
     }
     pal.stat = data.stats[element];
     pal.drop = {
