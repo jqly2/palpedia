@@ -1,0 +1,215 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("POSTGRES_PRISMA_URL") // uses connection pooling
+  directUrl = env("POSTGRES_URL_NON_POOLING") // uses a direct connection
+}
+
+//Model fields for each json file you want to take in and sort by. 
+//Example for palworld data below
+
+model Pal {
+  id       String         @id @default(cuid())
+  key      String         @unique @map("PalID")
+  lang     Lang[]
+  work     Work?
+  type     Type?
+  stat     Stat?
+  speed    Speed?
+  bio      Bio?
+  drop     Drop[]
+  location Location[]
+  moves    PalLevelMove[]
+  skills   Skill[] 
+}
+
+model Lang {
+  pal       Pal           @relation(fields: [palId], references: [key])
+  palId     String
+  skill     Skill?        @relation(fields: [skillKey], references: [key])
+  skillKey  String?       @unique 
+
+  lang      String        @id @unique
+  name      String        
+  desc      String?
+}
+
+model Type {
+  pal       Pal           @relation(fields: [palKey], references: [key])
+  palKey    String        @unique
+  type      String        @id @unique @map("ElementType1")
+  subType   String?       @map("ElementType2")
+}
+
+model Drop {
+  item   String
+  rate   Int
+  amount String
+
+  pal   Pal    @relation(fields: [palKey], references: [key])
+  palKey String @id
+}
+
+model Location {
+  pal       Pal    @relation(fields: [palKey], references: [key])
+  palKey    String @id
+
+  day       Json?  @map("dayTimeLocations")
+  night     Json?  @map("nightTimeLocations") 
+}
+
+model Stat {
+  pal   Pal    @relation(fields: [palId], references: [key])
+  palId String @id @unique
+
+  hp      Int  @map("HP")
+  melee   Int  @map("MeleeAttack")
+  range   Int  @map("ShotAttack")
+  def     Int  @map("Defense")
+  support Int  @map("Support")
+  craft   Int  @map("CraftSpeed")
+  combi   Int  @map("CombiRank")
+}
+
+model Speed {
+  pal   Pal    @relation(fields: [palId], references: [key])
+  palId String @id
+
+  slow      Int @map("SlowWalkSpeed")
+  walk      Int @map("WalkSpeed")
+  run       Int @map("RunSpeed")
+  sprint    Int @map("RideSprintSpeed")
+  transport Int @map("TransportSpeed")
+}
+
+model Work {
+  pal   Pal    @relation(fields: [palId], references: [key])
+  palId String @id
+
+  kindle        String   @map("WorkSuitability_EmitFlame")
+  watering        String   @map("WorkSuitability_Watering")
+  planting        String   @map("WorkSuitability_Seeding")
+  generate        String   @map("WorkSuitability_GenerateElectricity")
+  handcraft        String   @map("WorkSuitability_Handcraft")
+  harvest        String   @map("WorkSuitability_Collection")
+  lumber        String   @map("WorkSuitability_Deforest")
+  mining        String   @map("WorkSuitability_Mining")
+  oil        String   @map("WorkSuitability_OilExtraction")
+  pharmacy        String   @map("WorkSuitability_ProductMedicine")
+  cool        String   @map("WorkSuitability_Cool")
+  cargo        String   @map("WorkSuitability_Transport")
+  ranch        String   @map("WorkSuitability_MonsterFarm")
+}
+
+model Bio {
+  pal   Pal    @relation(fields: [palId], references: [key])
+  palId String @id
+
+  genus      String   @map("GenusCategory")
+  size       String   @map("Size")
+  food       Int      @map("FoodAmount")
+  rarity     Int      @map("Rarity")
+  price      Int      @map("Price")
+  expRatio   Int      @map("ExpRatio")
+  defMod     Int      @map("EnemyReceiveDamageRate")
+  capture    Int      @map("CaptureRateCorrect")
+  maleChance Int      @map("MaleProbability")
+  nocturnal  Boolean  @map("Nocturnal")
+  trappable  Boolean  @map("NooseTrap")
+}
+
+model Skill {
+  key       String    @id @unique @map("Key")
+  lang      Lang[]
+  rank      Int[]
+  type      String  
+  item      Item?
+  skill     Active[]
+  passive   Passive[]
+  effect    Effect[]
+  pal       Pal[]  
+}
+
+model Active {
+  id        String    @id @unique @map("Key")
+  name      String    
+  
+  rank      Int[] 
+  value     Int[]
+  execCost  Int @map("ExecCost")
+  idleCost  Int @map("IdleCost")
+  cooldown  Int @map("CoolDownTime")
+  duration  Int @map("effectTime")
+  throwable Boolean @map("CanThrowPal")
+  weapon    Boolean @map("CanChangeWeapon")
+  toggle    Boolean @map("IsToggleKey")
+  skill     Skill?    @relation(fields: [skillKey], references: [key])
+  skillKey  String?   @unique 
+}
+
+model Passive {
+  id        String    @id @unique @map("Key")
+  skill     Skill[]
+  
+  rank      Int?      @map("Rank")
+  value     Int?      
+  type      String?   @map("TargetElementType")
+  // other     Boolean?  @map("AssignOthers")
+  // trigger   Int?      @map("TriggerTypeFlags")
+  riding    Boolean   @map("InvokeRiding")
+  always    Boolean   @map("InvokeAlways")
+  partner   Boolean   @map("InvokeActiveOtomo")
+  party     Boolean   @map("InvokeInOtomo")
+  crafting  Boolean   @map("InvokeWorker")
+}
+
+model Item{
+  name      String    @id @unique
+  skill     Skill?    @relation(fields: [skillKey], references: [key])
+  skillKey  String?   @unique 
+}
+
+model Effect {
+  id        Int     @id @default(autoincrement())
+  skill     Skill[]
+  skillKey  String?
+  move      Move[]
+  moveKey   String?
+  effect1    String  @map("EffectType1")
+  value1     Int     @map("EffectValue1")
+  target1    String? @map("TargetType1")
+  effect2    String? @map("EffectType2") 
+  value2     Int?    @map("EffectValue2") 
+  target2    String? @map("TargetType2")
+  effect3    String? @map("EffectType3") 
+  value3     Int?    @map("EffectValue3")
+  target3    String? @map("TargetType3")
+}
+
+model PalLevelMove {
+  pal       Pal         @relation(fields: [palKey], references: [key])
+  palKey    String      @unique
+
+  move      Move        @relation(fields: [moveKey], references: [key])
+  moveKey   String      @unique
+
+  level     Int         @map("Level")
+
+  @@id([palKey, moveKey])
+}
+
+model Move {
+  key       String         @id @unique @map("WazaID")
+  type      String         @map("Element")
+  power     Int?
+  duration  Int?
+  minRange  Int?
+  maxRange  Int?
+  cooldown  Int
+  condition Json?
+  pals      PalLevelMove?
+  effect    Effect[]
+}

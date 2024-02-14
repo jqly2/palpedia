@@ -1,4 +1,4 @@
-import {prismaClient} from '../../../prisma/client'
+import {prismaClient} from '../../db/prisma/client'
 
 export async function dashboard() {
   const allPals = await prismaClient.$queryRaw`
