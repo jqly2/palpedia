@@ -45,13 +45,13 @@ export const FOOTERLINK: URL[] = [
 	],
 	NAVBARLINK: ImageURL[] = [
 		{ name: 'Deck', href: '/deck', icon: IdentificationIcon },
-		{
-			name: 'World Map',
-			href: '/map',
-			icon: MapIcon,
-		},
+		// {
+		// 	name: 'World Map',
+		// 	href: '/map',
+		// 	icon: MapIcon,
+		// },
 		{ name: 'Temp Home', href: '/', icon: Cog8ToothIcon },
-		{ name: 'Items', href: '/items', icon: ShoppingBagIcon },
+		// { name: 'Items', href: '/items', icon: ShoppingBagIcon },
 	],
 	WORKICONS: ICON = {
 		work_icon:
