@@ -3,13 +3,13 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import clsx from 'clsx';
-import { HEADERLINK } from '@/app/lib/constants';
+import { NAVBARLINK } from '../../../lib/constants';
 
 const Navbar = () => {
   const pathname = usePathname();
   return (
     <>
-      {HEADERLINK.map((link) => {
+      {NAVBARLINK.map((link) => {
         const LinkIcon = link.icon;
         return (
           <Link
