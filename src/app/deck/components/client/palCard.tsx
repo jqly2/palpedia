@@ -20,6 +20,7 @@ type WorkSuitability = {
 
 interface PalCardProps extends WorkSuitability {
 	Name: string;
+	EnglishName: string;
 	ZukanIndex: number;
 	ElementType1: string;
 	ElementType2?: string;
@@ -57,6 +58,7 @@ function checkDisplay(
 
 export default function PalCardComponent({
 	Name,
+	EnglishName,
 	ZukanIndex,
 	ElementType1,
 	ElementType2,
@@ -74,11 +76,11 @@ export default function PalCardComponent({
 	WorkSuitability_Watering,
 }: PalCardProps) {
 	return (
-		<div className='w-80 h-max rounded overflow-hidden shadow-lg'>
+		<div className='w-80 h-max bg-slate-900 rounded overflow-hidden shadow-lg'>
 			<div className='px-6 py-4'>
 				<div className='flex flex-row justify-between'>
-					<div className='font-bold text-xl mb-2'>No.{ZukanIndex}</div>
-					<div className='font-bold text-xl mb-2'>{Name}</div>
+					<div className='font-bold text-l mb-2'>No.{ZukanIndex}</div>
+					<div className='font-bold text-l mb-2'>{EnglishName}</div>
 					<Image
 						src={ELEICONS[ElementType1]}
 						alt={ElementType1}

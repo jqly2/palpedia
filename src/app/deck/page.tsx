@@ -1,5 +1,5 @@
 import SearchUIComponent from "./components/client/searchUI"
-import PalListComponent from "./components/client/palCard"
+import PalCardComponent from "./components/client/palCard"
 import {getPals} from "./components/server/deckServer"
 
 function displayPalList(): Array<React.ReactNode> {
@@ -9,9 +9,10 @@ function displayPalList(): Array<React.ReactNode> {
         //Need to convert the objects to simple values to pass down to Client Component Card.
         pals.map((pal) => {
             display.push(
-                <PalListComponent
+                <PalCardComponent
                     key={pal.Name}
-                    Name={pal.Name} 
+                    Name={pal.Name}
+                    EnglishName={pal.Name_en} 
                     ZukanIndex={pal.ZukanIndex}
                     ElementType1={pal.ElementType1}
                     ElementType2={pal.ElementType2}
@@ -42,7 +43,7 @@ export default function Deck(){
     return (
         <div id="deck-main" className="bg-gray-200 grow flex flex-col items-center justify-center">
             {/* <SearchUIComponent /> */}
-            <div className="grid grid-cols-3">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mt-8 mb-8">
                 {displayPalList()}
             </div>
         </div>
