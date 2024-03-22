@@ -1,6 +1,6 @@
 'use client'
 
-import { FOOTERLINK } from '../lib/constants';
+import { FOOTERLINK } from '../../lib/constants';
 import classNames from 'classnames';
 import { usePathname } from 'next/navigation';
 import clsx from 'clsx';
