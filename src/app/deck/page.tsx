@@ -47,7 +47,7 @@ export default function Deck(){
     return (
         <div id="deck-main" className="bg-gray-200 grow flex flex-col items-center justify-center">
             {/* <SearchUIComponent /> */}
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mt-8 mb-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-10 mt-8 mb-8">
                 {displayPalList()}
             </div>
         </div>
