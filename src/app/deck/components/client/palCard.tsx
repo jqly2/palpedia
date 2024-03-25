@@ -86,19 +86,20 @@ export default function PalCardComponent({
 	WorkSuitability_Watering,
 }: PalCardProps) {
 	return (
-		<div className='w-max h-max rounded-lg bg-slate-900 overflow-hidden shadow-lg'>
+		<div className='w-full h-full rounded-lg bg-slate-900 overflow-hidden shadow-lg hover:border border-cyan-600'>
 			<div className='px-6 py-4'>
-				<div className='relative flex flex-row w-auto items-center justify-between mb-4'>
+				<div className='relative flex flex-row items-center justify-between mb-4'>
 
 					<div className='flex flex-row relative mt-4 ml-2'>					
-						<div className='absolute -left-4 -top-4 text-xs'>No.{ZukanIndex}{ZukanIndexSuffix}</div><div className='font-bold text-base mb-2'>{EnglishName}</div></div>
+						<div className='absolute -left-4 -top-4 text-xs'>No.{ZukanIndex}{ZukanIndexSuffix}</div>
+						<div className='font-bold text-xl mb-2'>{EnglishName}</div></div>
 					<div className="flex flex-row mt-4">
-						<p className="font-bold text-base mb-2 bg-red-700 mr-2">HP: {HP}</p>
+
 						<Image
 							src={ELEICONS[ElementType1]}
 							alt={ElementType1}
-							height={32}
-							width={32}
+							height={64}
+							width={64}
 						/>
 						{checkDisplay('ElementType2', ElementType2)}
 					</div>
@@ -112,28 +113,34 @@ export default function PalCardComponent({
 						width={256}
 					/>
 				</div>
-
-				<div id="palcard-stat-component" className='flex flex-row justify-between mt-4 mb-4'>
-					<p className="font-bold text-1 mb-2 bg-orange-500">ATK: {ShotAttack}</p>
-					<p className="font-bold text-1 mb-2 bg-blue-600">DEF: {Defense}</p>
-				</div>
-				<div id="palcard-work-component" className='flex flex-row justify-evenly'>
-					<div className="flex flex-row justify-end">
-						{checkDisplay('WorkSuitability_EmitFlame', WorkSuitability_EmitFlame)}
-						{checkDisplay('WorkSuitability_Collection', WorkSuitability_Collection)}
-						{checkDisplay('WorkSuitability_Cool', WorkSuitability_Cool)}
-						{checkDisplay('WorkSuitability_Deforest', WorkSuitability_Deforest)}
-						{checkDisplay('WorkSuitability_GenerateElectricity', WorkSuitability_GenerateElectricity)}
-						{checkDisplay('WorkSuitability_Handcraft', WorkSuitability_Handcraft)}
-						{checkDisplay('WorkSuitability_Mining', WorkSuitability_Mining)}
-						{checkDisplay('WorkSuitability_MonsterFarm', WorkSuitability_MonsterFarm)}
-						{checkDisplay('WorkSuitability_ProductMedicine', WorkSuitability_ProductMedicine)}
-						{checkDisplay('WorkSuitability_Seeding', WorkSuitability_Seeding)}
-						{checkDisplay('WorkSuitability_Transport', WorkSuitability_Transport)}
-						{checkDisplay('WorkSuitability_Watering', WorkSuitability_Watering)}
+				<div className="h-24">
+					<div className='flex flex-row'>
+						<div id="palcard-work-component" className="grid grid-cols-6 justify-end">
+							{checkDisplay('WorkSuitability_EmitFlame', WorkSuitability_EmitFlame)}
+							{checkDisplay('WorkSuitability_Collection', WorkSuitability_Collection)}
+							{checkDisplay('WorkSuitability_Cool', WorkSuitability_Cool)}
+							{checkDisplay('WorkSuitability_Deforest', WorkSuitability_Deforest)}
+							{checkDisplay('WorkSuitability_GenerateElectricity', WorkSuitability_GenerateElectricity)}
+							{checkDisplay('WorkSuitability_Handcraft', WorkSuitability_Handcraft)}
+							{checkDisplay('WorkSuitability_Mining', WorkSuitability_Mining)}
+							{checkDisplay('WorkSuitability_MonsterFarm', WorkSuitability_MonsterFarm)}
+							{checkDisplay('WorkSuitability_ProductMedicine', WorkSuitability_ProductMedicine)}
+							{checkDisplay('WorkSuitability_Seeding', WorkSuitability_Seeding)}
+							{checkDisplay('WorkSuitability_Transport', WorkSuitability_Transport)}
+							{checkDisplay('WorkSuitability_Watering', WorkSuitability_Watering)}
+						</div>
 					</div>
-                </div>
+				</div>
 
+				<div id="palcard-stat-component" className="flex flex-row justify-between">
+					<div>
+						<p className="font-bold text-base bg-red-700 mt-4 mb-4">HP: {HP}</p>
+					</div>
+					<div className='flex flex-row justify-end mt-4 mb-4'>
+						<p className="font-bold text-1 mb-2 bg-orange-500">HP: {ShotAttack}</p>
+						<p className="font-bold text-1 mb-2 bg-blue-600">DEF: {Defense}</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	);
