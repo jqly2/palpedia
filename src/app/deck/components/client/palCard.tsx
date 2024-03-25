@@ -21,7 +21,11 @@ type WorkSuitability = {
 interface PalCardProps extends WorkSuitability {
 	Name: string;
 	EnglishName: string;
+	HP:number;
+	Defense:number;
+	ShotAttack:number;
 	ZukanIndex: number;
+	ZukanIndexSuffix?: string;
 	ElementType1: string;
 	ElementType2?: string;
 }
@@ -60,6 +64,10 @@ export default function PalCardComponent({
 	Name,
 	EnglishName,
 	ZukanIndex,
+	HP,
+	Defense,
+	ShotAttack,
+	ZukanIndexSuffix,
 	ElementType1,
 	ElementType2,
 	WorkSuitability_EmitFlame,
@@ -76,10 +84,10 @@ export default function PalCardComponent({
 	WorkSuitability_Watering,
 }: PalCardProps) {
 	return (
-		<div className='w-80 h-max bg-slate-900 rounded overflow-hidden shadow-lg'>
+		<div className='w-max h-max rounded-lg bg-slate-900 overflow-hidden shadow-lg'>
 			<div className='px-6 py-4'>
 				<div className='flex flex-row justify-between'>
-					<div className='font-bold text-l mb-2'>No.{ZukanIndex}</div>
+					<div className='font-bold text-l mb-2'>No.{ZukanIndex}{ZukanIndexSuffix}</div>
 					<div className='font-bold text-l mb-2'>{EnglishName}</div>
 					<Image
 						src={ELEICONS[ElementType1]}
@@ -91,7 +99,7 @@ export default function PalCardComponent({
 				</div>
 
 				<Image
-					className='border-2 border-slate-100'
+					className='border-2 border-slate-100 rounded-lg'
 					src={`https://palpedia-media.s3.us-west-1.amazonaws.com/Normal/T_${Name}_icon_normal.png`}
 					alt={Name}
 					height={256}

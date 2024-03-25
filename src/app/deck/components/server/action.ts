@@ -135,6 +135,9 @@ export const connectPalDb = async (): Promise<Document[]> => {
                       }, '$WorkSuitability_MonsterFarm', '$$REMOVE'
                     ]
                   }, 
+                  'HP': '$HP', 
+                  'ShotAttack': '$ShotAttack', 
+                  'Defense': '$Defense', 
                   'Name': '$Name', 
                   'Name_en': '$Name_en', 
                   'ZukanIndex': {
@@ -144,6 +147,15 @@ export const connectPalDb = async (): Promise<Document[]> => {
                           '$ZukanIndex', 0
                         ]
                       }, '$ZukanIndex', 0
+                    ]
+                  }, 
+                  'ZukanIndexSuffix': {
+                    '$cond': [
+                      {
+                        '$ne': [
+                          '$ZukanIndexSuffix', ''
+                        ]
+                      }, '$ZukanIndexSuffix', '$$REMOVE'
                     ]
                   }, 
                   'ElementType1': '$ElementType1', 
@@ -157,6 +169,15 @@ export const connectPalDb = async (): Promise<Document[]> => {
                       'then': '$$REMOVE', 
                       'else': '$ElementType2'
                     }
+                  }, 
+                  'moveLevels': {
+                    '$cond': [
+                      {
+                        '$ne': [
+                          '$moveLevels', ''
+                        ]
+                      }, '$moveLevels', '$$REMOVE'
+                    ]
                   }
                 }
               }, {

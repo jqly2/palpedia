@@ -25,35 +25,7 @@ interface ImageURL extends URL {
 	>;
 }
 
-export const FOOTERLINK: URL[] = [
-		{
-			name: 'Offical Site',
-			href: '/',
-		},
-		{
-			name: 'About',
-			href: '/',
-		},
-		{
-			name: 'Credit',
-			href: '/',
-		},
-		{
-			name: 'Roadmap',
-			href: '/',
-		},
-	],
-	NAVBARLINK: ImageURL[] = [
-		{ name: 'Deck', href: '/deck', icon: IdentificationIcon },
-		// {
-		// 	name: 'World Map',
-		// 	href: '/map',
-		// 	icon: MapIcon,
-		// },
-		{ name: 'Temp Home', href: '/', icon: Cog8ToothIcon },
-		// { name: 'Items', href: '/items', icon: ShoppingBagIcon },
-	],
-	WORKICONS: ICON = {
+export const WORKICONS: ICON = {
 		work_icon:
 			'https://palpedia-media.s3.us-west-1.amazonaws.com/work-food/T_icon_pal_work.png',
 		WorkSuitability_EmitFlame:

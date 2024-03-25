@@ -12,8 +12,12 @@ function displayPalList(): Array<React.ReactNode> {
                 <PalCardComponent
                     key={pal.Name}
                     Name={pal.Name}
-                    EnglishName={pal.Name_en} 
+                    EnglishName={pal.Name_en}
+                    HP={pal.HP}
+                    Defense={pal.Defense}
+                    ShotAttack={pal.ShotAttack}
                     ZukanIndex={pal.ZukanIndex}
+                    ZukanIndexSuffix={pal.ZukanIndexSuffix}
                     ElementType1={pal.ElementType1}
                     ElementType2={pal.ElementType2}
                     WorkSuitability_EmitFlame={pal.WorkSuitability_EmitFlame}
