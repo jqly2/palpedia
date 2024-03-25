@@ -18,7 +18,7 @@ export default async function RootLayout({
   await initAction();
   return (
     <html lang="en">
-      <body className={[inter.className, "flex flex-col h-screen"].join(" ")}> 
+      <body className={[inter.className, "flex flex-col h-screen w-screen"].join(" ")}> 
         {children}
       </body>
     </html>

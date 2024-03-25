@@ -1,5 +1,4 @@
 import { connectPalDb } from "./action";
-import PalListComponent from "../client/palCard";
 
 const data = await connectPalDb();
 
