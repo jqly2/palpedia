@@ -118,14 +118,17 @@ export default function PalCardComponent({
 						}
 					</div>
 				</div>
-				<div className='relative h-80 w-80'>
-					<Image
-						className='border-2 border-slate-100 rounded-lg'
-						src={`https://palpedia-media.s3.us-west-1.amazonaws.com/Normal/T_${Name}_icon_normal.png`}
-						alt={Name}
-						fill={true}
-					/>
+				<div className='h-64'>
+					<div className='relative h-full w-full flex'>
+						<Image
+							className=' border-2 border-slate-100 rounded-lg grow'
+							src={`https://palpedia-media.s3.us-west-1.amazonaws.com/Normal/T_${Name}_icon_normal.png`}
+							alt={Name}
+							fill={true}
+						/>
+					</div>
 				</div>
+
 				<div className="h-auto w-auto grid grid-cols-2 grid-flow-col-dense mt-5">
 					<div id="palcard-work-component" className="grid grid-cols-2 grid-flow-row border-2 border-slate-400 rounded-lg">
 						{checkDisplay('WorkSuitability_EmitFlame', WorkSuitability_EmitFlame)}

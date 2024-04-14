@@ -1,6 +1,8 @@
 import SearchUIComponent from "./components/client/searchUI"
 import PalCardComponent from "./components/client/palCard"
+import Loading from "../ui/component/loading";
 import {getPals} from "./components/server/deckServer"
+import { Suspense } from "react";
 
 function displayPalList(): Array<React.ReactNode> {
     const pals = getPals();
@@ -42,14 +44,18 @@ function displayPalList(): Array<React.ReactNode> {
 }
 
 
-export default function Deck(){
+export default function Deck(): JSX.Element{
 
     return (
-        <div id="deck-main" className="bg-gray-200 grow flex flex-col items-center justify-center">
+        <div id="deck-main" className="bg-gray-200 h-auto w-auto grow flex flex-col items-center justify-center">
             {/* <SearchUIComponent /> */}
+            {/* <Loading /> */}
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-10 mt-8 mb-8">
-                {displayPalList()}
+                <Suspense fallback={<Loading />}>
+                    {displayPalList()}
+                </Suspense>
             </div>
         </div>
     )
+
 }
