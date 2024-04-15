@@ -1,14 +1,17 @@
 import { WORKICONS, ELEICONS } from "@/lib/constants";
 import Image from "next/image";
+import { Dispatch } from "react";
+import { FilterDataState } from "@/app/types/deck";
 
 type SearchUIComponentProps = {
     palName?: string
     filterEle?: string[]
     filterWork?: string[]
+    setFilterData?: Dispatch<React.SetStateAction<FilterDataState>>
 }
 
-export default function SearchUIComponent({palName, filterEle, filterWork}: SearchUIComponentProps){
-
+export default function SearchUIComponent({palName, filterEle, filterWork, setFilterData}: SearchUIComponentProps){
+    
     return (
             <>
                 <div id="search-ui" className="grid grid-cols-3 grid-rows-1 h-1/4">             

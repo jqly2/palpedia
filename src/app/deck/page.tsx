@@ -5,6 +5,14 @@ import PalCardComponent from "./components/client/palCard"
 import Loading from "../ui/component/loading";
 import {getPals} from "./components/server/deckServer"
 import { Suspense, useState } from "react";
+import { FilterDataState } from "../types/deck";
+
+// Initialize the state with default values
+const initialFilterData: FilterDataState = {
+    palName: '',
+    filterEle: [],
+    filterWork: [],
+};
 
 function displayPalList(): Array<React.ReactNode> {
     const pals = getPals();
@@ -51,11 +59,11 @@ function displayPalList(): Array<React.ReactNode> {
 
 export default function Deck(): JSX.Element{
     
-    const [filterData, setFilterData] = useState({"palName": "", "filterEle": [], "filterWork": []});
-
+    const [filterData, setFilterData] = useState<FilterDataState>(initialFilterData);
+    
     return (
         <div id="deck-main" className="bg-gray-200 h-auto w-auto grow flex flex-col items-center justify-center">
-            <SearchUIComponent palName=""/>
+            <SearchUIComponent palName={filterData.palName} filterEle={filterData.filterEle} filterWork={filterData.filterWork} setFilterData={setFilterData} />
             <div className="grid grid-cols-1 p-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-10 mt-8 mb-8">
                 <Suspense fallback={<Loading />}>
                     {displayPalList()}
