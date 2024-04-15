@@ -1,8 +1,13 @@
 import { WORKICONS, ELEICONS } from "@/lib/constants";
 import Image from "next/image";
 
+type SearchUIComponentProps = {
+    palName?: string
+    filterEle?: string[]
+    filterWork?: string[]
+}
 
-export default function SearchUIComponent(){
+export default function SearchUIComponent({palName, filterEle, filterWork}: SearchUIComponentProps){
 
     return (
             <>

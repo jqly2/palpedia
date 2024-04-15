@@ -32,20 +32,6 @@ interface PalCardProps extends WorkSuitability {
 	ElementType2?: string;
 }
 
-function checkWork() {
-	let className: string = '';
-	let query: ReactElement[] = [];
-
-	if (query.length > 3) {
-		className =
-			'grid grid-cols-2 sm:grid-cols-2 grid-flow-row border-2 mr-4 p-2 border-slate-400 rounded-lg';
-	} else {
-		className =
-			'grid grid-cols-1 sm:grid-cols-2 grid-flow-row border-2 mr-4 p-2 border-slate-400 rounded-lg';
-	}
-	return <div className={className}>{query}</div>;
-}
-
 function checkDisplay(
 	query: string,
 	value: string | number | undefined
